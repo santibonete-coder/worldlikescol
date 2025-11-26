@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const openBtn = document.getElementById('openChatButton');
     const closeBtn = document.getElementById('closeChatButton');
     const chatWidget = document.getElementById('chatWidget');
-    const notificationBadge = document.getElementById('notificationBadge'); // Nuevo
+    const notificationBadge = document.getElementById('notificationBadge');
 
     // Función para abrir el chat al hacer clic
     openBtn.addEventListener('click', function() {
