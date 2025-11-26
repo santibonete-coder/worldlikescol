@@ -6,13 +6,13 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Función para abrir el chat
     openBtn.addEventListener('click', function() {
-        chatWidget.classList.remove('hidden');
-        openBtn.style.display = 'none'; // Ocultar el botón al abrir el chat
+        chatWidget.classList.remove('hidden'); // Muestra el widget
+        openBtn.style.display = 'none'; // Oculta el botón flotante
     });
 
     // Función para cerrar el chat
     closeBtn.addEventListener('click', function() {
-        chatWidget.classList.add('hidden');
-        openBtn.style.display = 'block'; // Mostrar el botón al cerrar el chat
+        chatWidget.classList.add('hidden'); // Oculta el widget
+        openBtn.style.display = 'block'; // Muestra de nuevo el botón flotante
     });
 });
