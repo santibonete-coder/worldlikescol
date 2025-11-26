@@ -121,6 +121,19 @@
         .btn i {
             margin-right: 12px;
         }
+        
+        /* Botón del Sitio Web (NUEVO ESTILO) */
+        .btn-web {
+            background-color: var(--color-accent-blue); /* Usamos el azul de acento */
+            color: white;
+            border: 2px solid #5ddefe; 
+        }
+        
+        .btn-web:hover {
+            background-color: #0097a7; /* Un tono más oscuro en hover */
+            transform: translateY(-3px) scale(1.02);
+            box-shadow: 0 8px 20px rgba(0, 188, 212, 0.5); /* Sombra más pronunciada */
+        }
 
         /* Botón Primario: WhatsApp Contacto */
         .btn-primary {
@@ -390,6 +403,10 @@
         </main>
 
         <section class="contact-buttons">
+            
+            <a href="https://worldlikes.com.co" target="_blank" class="btn btn-web">
+                <i class="fas fa-globe"></i> Visita Nuestro Sitio Web
+            </a>
             <a href="https://wa.me/573192467169?text=Hola%20estoy%20interesado%20en%20tus%20servicios" target="_blank" class="btn btn-primary">
                 <i class="fab fa-whatsapp"></i> Hablemos por WhatsApp
             </a>
